@@ -21,6 +21,10 @@ public:
 
 int main()
 {
+    abstraksi ak;
+    ak.setXY("yogyakarta", "surabaya");
+    ak.display();
 
+    return 0;
 }
 
