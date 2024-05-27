@@ -9,7 +9,12 @@ public :
 	}
 };
 
-
+class derivedclass : public baseclass {
+public:
+	void perkenalan() {
+		cout << "hallo saya function dari drived class";
+	}
+};
 
 int main()
 {
