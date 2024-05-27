@@ -26,5 +26,16 @@ public:
 
 int main()
 {
-   
+	seseoramg* object;
+	lisa a;
+	joko b;
+
+	object = &a;
+	object->pesan();
+	object = &b;
+	object->pesan();
+
+	/*a.seseorang::pesan();*/
+
+	return 0;
 }
