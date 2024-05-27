@@ -4,10 +4,12 @@ using namespace std;
 
 class baseclass {
 public :
-	virtual void perkenalan() {
+	virtual void perkenalan()  { 
 		cout << "halllo saya function dari base class";
 	}
 };
+
+// cara menggunakanya dengan menggunakan kata final di belakang function perkenalan
 
 class derivedclass : public baseclass {
 public:
@@ -18,6 +20,9 @@ public:
 
 int main()
 {
- 
+	derivedclass a;
+	a.perkenalan();
+
+	return;
 }
 
