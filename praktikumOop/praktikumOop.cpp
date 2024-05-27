@@ -10,6 +10,20 @@ public:
 	//virtual void pesan() = 0;
 };
 
+class joko : public seseoramg {
+public:
+	void pesan() {
+		cout << "pesan dari joko" << endl;
+	}
+};
+
+class lisa : public seseoramg {
+public:
+	void pesan() {
+		cout << "pesan dari lisa" << endl;
+	}
+};
+
 int main()
 {
    
